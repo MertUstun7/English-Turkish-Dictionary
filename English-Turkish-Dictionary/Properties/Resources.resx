@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!--
+  <!-- 
     Microsoft ResX Schema 
-
+    
     Version 2.0
-
-    The primary goals of this format is to allow a simple XML format
-    that is mostly human readable. The generation and parsing of the
-    various data types are done through the TypeConverter classes
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
     associated with the data types.
-
+    
     Example:
-
+    
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-
-    There are any number of "resheader" rows that contain simple
+                
+    There are any number of "resheader" rows that contain simple 
     name/value pairs.
-
-    Each data row contains a name, and value. The row also contains a
-    type or mimetype. Type corresponds to a .NET class that support
-    text/value conversion through the TypeConverter architecture.
-    Classes that don't support this are serialized and stored with the
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
     mimetype set.
-
-    The mimetype is used for serialized objects, and tells the
-    ResXResourceReader how to depersist the object. This is currently not
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
     extensible. For a given mimetype the value must be set accordingly:
-
-    Note - application/x-microsoft.net.object.binary.base64 is the format
-    that the ResXResourceWriter will generate, however the reader can
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
     read any of the formats listed below.
-
+    
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array
+    value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -117,35 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Ekran görüntüsü 2024-06-15 145322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ekran görüntüsü 2024-06-15 145322.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="volume_up_24dp_FILL0_wght400_GRAD0_opsz24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volume_up_24dp_FILL0_wght400_GRAD0_opsz24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

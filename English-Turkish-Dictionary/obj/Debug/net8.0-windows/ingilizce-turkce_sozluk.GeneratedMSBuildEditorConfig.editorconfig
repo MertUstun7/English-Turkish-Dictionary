@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ingilizce_turkce_sozluk
-build_property.ProjectDir = C:\Users\EXCALIBUR\Desktop\English-Turkish-Dictionary\
+build_property.ProjectDir = C:\Users\EXCALIBUR\Documents\GitHub\English-Turkish-Dictionary\English-Turkish-Dictionary\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

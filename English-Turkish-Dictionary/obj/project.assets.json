@@ -1835,11 +1835,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EXCALIBUR\\Desktop\\English-Turkish-Dictionary\\ingilizce-turkce_sozluk.csproj",
+      "projectUniqueName": "C:\\Users\\EXCALIBUR\\Documents\\GitHub\\English-Turkish-Dictionary\\English-Turkish-Dictionary\\ingilizce-turkce_sozluk.csproj",
       "projectName": "ingilizce-turkce_sozluk",
-      "projectPath": "C:\\Users\\EXCALIBUR\\Desktop\\English-Turkish-Dictionary\\ingilizce-turkce_sozluk.csproj",
+      "projectPath": "C:\\Users\\EXCALIBUR\\Documents\\GitHub\\English-Turkish-Dictionary\\English-Turkish-Dictionary\\ingilizce-turkce_sozluk.csproj",
       "packagesPath": "C:\\Users\\EXCALIBUR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EXCALIBUR\\Desktop\\English-Turkish-Dictionary\\obj\\",
+      "outputPath": "C:\\Users\\EXCALIBUR\\Documents\\GitHub\\English-Turkish-Dictionary\\English-Turkish-Dictionary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

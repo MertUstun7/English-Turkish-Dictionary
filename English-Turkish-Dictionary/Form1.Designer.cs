@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             label2 = new Label();
             textBox1 = new TextBox();
@@ -39,6 +41,11 @@
             button1 = new Button();
             radioButton1 = new RadioButton();
             radioButton2 = new RadioButton();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            timer1 = new System.Windows.Forms.Timer(components);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -55,7 +62,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold);
-            label2.Location = new Point(5, 78);
+            label2.Location = new Point(5, 77);
             label2.Name = "label2";
             label2.Size = new Size(55, 20);
             label2.TabIndex = 0;
@@ -71,10 +78,12 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(75, 78);
+            textBox2.Location = new Point(75, 77);
             textBox2.Name = "textBox2";
+            textBox2.ReadOnly = true;
             textBox2.Size = new Size(182, 27);
             textBox2.TabIndex = 2;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // ekle
             // 
@@ -112,7 +121,7 @@
             // kelime_list
             // 
             kelime_list.FormattingEnabled = true;
-            kelime_list.Location = new Point(12, 157);
+            kelime_list.Location = new Point(5, 157);
             kelime_list.Name = "kelime_list";
             kelime_list.Size = new Size(441, 144);
             kelime_list.Sorted = true;
@@ -139,6 +148,7 @@
             radioButton1.TabStop = true;
             radioButton1.Text = "Türkçe-İngilizce";
             radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // radioButton2
             // 
@@ -152,12 +162,40 @@
             radioButton2.UseVisualStyleBackColor = true;
             radioButton2.CheckedChanged += radioButton2_CheckedChanged;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(263, 28);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(34, 27);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 12;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.image;
+            pictureBox2.Location = new Point(263, 77);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(34, 27);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 13;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(599, 313);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
             Controls.Add(radioButton2);
             Controls.Add(radioButton1);
             Controls.Add(button1);
@@ -170,8 +208,11 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "İngilizce-Türkçe Sözlük";
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -189,5 +230,8 @@
         private Button button1;
         private RadioButton radioButton1;
         private RadioButton radioButton2;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private System.Windows.Forms.Timer timer1;
     }
 }

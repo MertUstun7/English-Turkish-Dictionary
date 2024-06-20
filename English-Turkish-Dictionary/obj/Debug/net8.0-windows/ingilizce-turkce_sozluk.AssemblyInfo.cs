@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ingilizce-turkce_sozluk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f113cb23a6fdc92bfc284541a3209448d2076af1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ingilizce-turkce_sozluk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ingilizce-turkce_sozluk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

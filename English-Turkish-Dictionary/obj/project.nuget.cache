@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OUc6GN8niQ4=",
+  "dgSpecHash": "Ts6yFEaUy+M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\EXCALIBUR\\Desktop\\English-Turkish-Dictionary\\ingilizce-turkce_sozluk.csproj",
+  "projectFilePath": "C:\\Users\\EXCALIBUR\\Documents\\GitHub\\English-Turkish-Dictionary\\English-Turkish-Dictionary\\ingilizce-turkce_sozluk.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EXCALIBUR\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\EXCALIBUR\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",
